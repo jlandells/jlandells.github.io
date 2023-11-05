@@ -1,2 +1,7 @@
-# John's Tech Blog
-John's Tech Blog
+---
+layout: home
+title: John's Tech Blog
+permalink: /
+---
+
+## Welcome to John's Tech Blog!
