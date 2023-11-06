@@ -1,0 +1,24 @@
+name: Update Copyright Year
+
+on:
+  schedule:
+    # Schedule to run at midnight on January 1st of each year
+    - cron: '0 0 1 1 *'
+
+jobs:
+  update-license-year:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v2
+
+    - name: Update Copyright Year
+      run: |
+        current_year=$(date +"%Y")
+        sed -Ei "s/(Copyright \&copy; ([0-9]{4})(-[0-9]{4})?,/Copyright \&copy; \1-$current_year,/" _pages/LICENSE.md
+
+    - name: Commit changes if there are any
+      run: |
+        git diff --exit-code --quiet _pages/LICENSE.md || (git add _pages/LICENSE.md && git commit -m "Update copyright year to $current_year" && git push)
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
