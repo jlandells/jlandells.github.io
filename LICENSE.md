@@ -1,3 +1,9 @@
+---
+title: LICENSE
+authod: John Landells
+layout: post
+---
+
 Copyright &copy; 2023, John Landells.  All Rights Reserved.
 
 All rights reserved.
