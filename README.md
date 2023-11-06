@@ -24,7 +24,8 @@ It's simple, really. GitHub is where my code lives, so it makes sense for my tec
 
 ### Dive In
 
-I encourage you to peruse the posts, leave comments, and even suggest topics. This isn't just my story; it's ours. Let's make it an epic one.
+I encourage you to peruse the posts, ~~leave comments~~, and even suggest topics. This isn't just my story; it's ours. Let's make it an epic one.
+(Note the commenting is currently unavailable, due to the options seeming to be paid options, or ad-supported - neither of which are ideal!  Feel free to use the [Issues](https://github.com/jlandells/jlandells.github.io/issues) as a way to leave a comment or get in touch.)
 
 ### Stay Updated
 
