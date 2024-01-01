@@ -4,6 +4,8 @@ on:
   schedule:
     # Schedule to run at midnight on January 1st of each year
     - cron: '0 0 1 1 *'
+  
+  workflow_dispatch:
 
 jobs:
   update-license-year:
