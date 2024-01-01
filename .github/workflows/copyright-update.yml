@@ -20,6 +20,11 @@ jobs:
     - name: Checkout the repository
       uses: actions/checkout@v2
 
+    - name: Configure Git
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'jlandells@users.noreply.github.com'
+
     - name: Update Copyright Year
       run: |
         current_year=$(date +"%Y")
