@@ -15,7 +15,7 @@ jobs:
     - name: Update Copyright Year
       run: |
         current_year=$(date +"%Y")
-        sed -Ei "s/(Copyright \&copy; ([0-9]{4})(-[0-9]{4})?,/Copyright \&copy; \1-$current_year,/" _pages/LICENSE.md
+        sed -Ei "s/(Copyright \&copy; )([0-9]{4})(-[0-9]{4})?,/Copyright \&copy; \1-$current_year,/" _pages/LICENSE.md
 
     - name: Commit changes if there are any
       run: |
