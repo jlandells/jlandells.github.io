@@ -5,7 +5,7 @@ layout: post
 comments: false
 ---
 
-Copyright &copy; 2023-2024, John Landells.  All Rights Reserved.
+Copyright &copy; 2023-2026, John Landells.  All Rights Reserved.
 
 All rights reserved.
 
