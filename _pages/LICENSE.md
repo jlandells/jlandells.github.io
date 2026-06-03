@@ -1,7 +1,8 @@
 ---
 title: LICENSE
-authod: John Landells
+author: John Landells
 layout: post
+comments: false
 ---
 
 Copyright &copy; 2023-2024, John Landells.  All Rights Reserved.
