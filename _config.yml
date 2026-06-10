@@ -70,6 +70,8 @@ markdown_ext:             markdown,mkdown,mkdn,mkd,md
 # Permalinks
 permalink:                /:categories/:year-:month-:day-:title:output_ext
 
+timezone: Europe/London
+
 # Disqus comments
 # disqushandler:            sighingnow
 
