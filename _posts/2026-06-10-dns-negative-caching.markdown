@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DNS Negative Caching"
-date:   2026-06-10 02:27:13 +0000
+date:   2026-06-10 02:27:13 +0100
 categories: infrastructure networking dns
 ---
 
