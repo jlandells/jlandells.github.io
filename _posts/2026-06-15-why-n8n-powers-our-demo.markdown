@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why n8n Now Powers Our Demo Platform's Slash Commands"
-date: 2026-06-16 16:53:00 +0100
+date: 2026-06-15 16:53:00 +0100
 categories: mattermost automation n8n ai
 ---
 
