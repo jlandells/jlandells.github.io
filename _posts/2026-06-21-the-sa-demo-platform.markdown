@@ -99,5 +99,6 @@ That's the platform. The posts below go deeper into the individual decisions, an
 - [It Wasn't the Code: DNS Negative Caching]({{ site.url }}/infrastructure/networking/dns/2026-06-10-dns-negative-caching.html) — when the build breaks and the build logs lie to you.
 - [Why n8n Now Powers Our Demo Platform's Slash Commands]({{ site.url }}/mattermost/automation/n8n/ai/2026-06-15-why-n8n-powers-our-demo.html) — moving the orchestration off ad-hoc Python.
 - [Provisioning Mattermost AI Agents by API]({{ site.url }}/mattermost/ai/agents/plugin/api/2026-06-11-agents-plugin-api.html) — a field guide to the Agents plugin's undocumented REST interface.
+- [The Dataminr Bridge]({{ site-url }}/mattermost/demo/dataminr/aws/integration/2026-06-21-dataminr-bridge.html) - Feeding One Rate-Limited API to a Fleet of Demos
 
-*Still to come: the Dataminr Bridge, the Playbooks simulation specification, and a few of the technical wins I glossed over here.*
+*Still to come: the Playbooks simulation specification, and a few of the technical wins I glossed over here.*
