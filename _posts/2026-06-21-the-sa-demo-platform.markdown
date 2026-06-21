@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The SA Demo Platform: How It Grew, and What It Taught Me"
-date: 2026-06-21 11:30:00 +0100
+date: 2026-06-21 02:30:00 +0100
 categories: mattermost demo platform architecture
 ---
 
