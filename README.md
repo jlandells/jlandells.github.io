@@ -8,7 +8,7 @@ Hello, World! I'm John, a Technical Account Manager by day, composer by night, a
 
 ### About This Blog
 
-Technically Speaking is a repository of my adventures in technology. It's where I document the puzzles I've solved, the lessons I've learned, and the knowledge I've gained. This isn't just a blog—it's a shared journey. From the intricate art of programming to the sturdy structures of system architecture, the intriguing intricacies of networking, the clever tricks in Linux, to the honest insights on tech career progression, we’ll explore the many facets of the tech world.
+"John's Tech Blog" is a repository of my adventures in technology. It's where I document the puzzles I've solved, the lessons I've learned, and the knowledge I've gained. This isn't just a blog—it's a shared journey. From the intricate art of programming to the sturdy structures of system architecture, the intriguing intricacies of networking, the clever tricks in Linux, to the honest insights on tech career progression, we’ll explore the many facets of the tech world.
 
 ### What You'll Find Here
 
@@ -24,8 +24,8 @@ It's simple, really. GitHub is where my code lives, so it makes sense for my tec
 
 ### Dive In
 
-I encourage you to peruse the posts, ~~leave comments~~, and even suggest topics. This isn't just my story; it's ours. Let's make it an epic one.
-(Note the commenting is currently unavailable, due to the options seeming to be paid options, or ad-supported - neither of which are ideal!  Feel free to use the [Issues](https://github.com/jlandells/jlandells.github.io/issues) as a way to leave a comment or get in touch.)
+I encourage you to peruse the posts, leave comments, and even suggest topics. This isn't just my story; it's ours. Let's make it an epic one.
+Alternatively, feel free to use the [Issues](https://github.com/jlandells/jlandells.github.io/issues) as a way to leave a comment or get in touch.
 
 ### Stay Updated
 
