@@ -205,7 +205,7 @@ That's the actual point of all of this. Not correctness for its own sake, and ce
 And even this script has further to go — there's no cleanup on exit, no dry-run mode, no locking to stop two copies running at once. But it fails safely, it fails legibly, and it tells you where and why. That's the floor, not the ceiling, and it's a floor an alarming number of production scripts never reach.
 
 
-### Related Posts
+## Related Posts
 
 - [Shell Script Exit Codes]({{ site.url }}/shell/2026-07-13-shell-script-exit-codes.html)
 - [Well-Behaved Bash Scripts]({{ site.url }}/bash/scripting/2026-07-14-well-behaved-bash-scripts.html)

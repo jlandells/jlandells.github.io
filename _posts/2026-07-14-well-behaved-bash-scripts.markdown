@@ -233,7 +233,7 @@ Step back and the three additions rhyme. Cleanup on exit is the script tidying u
 But the quieter thread is the comments. The `run()` wrapper needed a note about what it can't do. The cleanup handler needed a note about why it's guarded. The lock needed a whole paragraph about a descriptor number and a release that happens by magic. In every case the *code* is short and the *reason* is not, and the reason is the thing that rots first when it lives only in your memory. The previous post was about a script you can come back to. This one adds the corollary: the cleverer and more compact a technique looks, the more it owes the reader an explanation. `flock` on a file descriptor is four tokens and a decade of Unix behaviour. Leave the four tokens and throw the decade away, and you've written something that works and teaches nobody — least of all future-you, arriving cold at 2am with the pager going off.
 
 
-### Related Posts
+## Related Posts
 
 - [Shell Script Exit Codes]({{ site.url }}/shell/2026-07-13-shell-script-exit-codes.html)
 - [Bash Script You Can Come Back To]({{ site.url }}/bash/scripting/2026-07-14-bash-scripts-you-can-come-back-to.html)
