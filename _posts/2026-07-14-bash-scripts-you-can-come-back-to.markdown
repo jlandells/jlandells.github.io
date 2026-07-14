@@ -5,7 +5,7 @@ date: 2026-07-14 10:30:00 +0100
 categories: bash scripting
 ---
 
-Yesterday I wrote about exit codes: the number a script hands back to say whether it worked, and the quiet damage done by scripts that answer `1` to every question they're ever asked ([the previous post is here]({{ site.url }}shell/2026-07-13-shell-script-exit-codes.html)). That post was about how a script *reports* failure once it has already happened. This one is about the other half of the same job — not failing blindly in the first place, and leaving behind something a human can actually read.
+Yesterday I wrote about exit codes: the number a script hands back to say whether it worked, and the quiet damage done by scripts that answer `1` to every question they're ever asked ([the previous post is here]({{ site.url }}/shell/2026-07-13-shell-script-exit-codes.html)). That post was about how a script *reports* failure once it has already happened. This one is about the other half of the same job — not failing blindly in the first place, and leaving behind something a human can actually read.
 
 I have a simple test for a script. Could I come back to it in two years, having forgotten everything about it, and be productive again inside a couple of minutes — from the comments, the usage message and the structure alone? Most scripts fail that test, and they fail it in the same few ways every time.
 
@@ -203,3 +203,9 @@ Add it up and none of it is exotic: named arguments, a real usage message, four 
 That's the actual point of all of this. Not correctness for its own sake, and certainly not cleverness — but kindness to the person who has to pick this up cold and get it working under pressure. That person is almost always you, and you will have forgotten everything.
 
 And even this script has further to go — there's no cleanup on exit, no dry-run mode, no locking to stop two copies running at once. But it fails safely, it fails legibly, and it tells you where and why. That's the floor, not the ceiling, and it's a floor an alarming number of production scripts never reach.
+
+
+### Related Posts
+
+- [Shell Script Exit Codes]({{ site.url }}/shell/2026-07-13-shell-script-exit-codes.html)
+- [Well-Behaved Bash Scripts]({{ site.url }}/bash/scripting/2026-07-14-well-behaved-bash-scripts.html)
