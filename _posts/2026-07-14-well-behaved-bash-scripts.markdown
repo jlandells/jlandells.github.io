@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Well-Behaved Bash Scripts"
-date: 2026-07-15 20:00:00 +0100
+date: 2026-07-14 20:00:00 +0100
 categories: bash scripting
 ---
 
