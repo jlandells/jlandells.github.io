@@ -66,7 +66,7 @@ So, in practice, **255 is the largest distinct exit code you can reliably commun
 - reserve the exit code simply to indicate success/failure or a broad category of error.
 
 
-## Related Posts
+### Related Posts
 
 - [Bash Script You Can Come Back To]({{ site.url }}/bash/scripting/2026-07-14-bash-scripts-you-can-come-back-to.html)
 - [Well-Behaved Bash Scripts]({{ site.url }}/bash/scripting/2026-07-14-well-behaved-bash-scripts.html)
